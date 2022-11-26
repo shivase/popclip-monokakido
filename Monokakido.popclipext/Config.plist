@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Actions</key>
+  <array>
+    <dict>
+      <key>icon</key>
+      <string>circle 物</string>
+      <key>Shell Script File</key>
+      <string>monokakido.sh</string>
+      <key>Title</key>
+      <string>物書堂</string>
+    </dict>
+  </array>
+  <key>Apps</key>
+  <array>
+    <dict>
+      <key>Bundle Identifiers</key>
+      <array>
+        <string>jp.monokakido.Dictionaries</string>
+      </array>
+      <key>Check Installed</key>
+      <true/>
+      <key>Link</key>
+      <string>https://monokakido.jp</string>
+      <key>Name</key>
+      <string>物書堂</string>
+    </dict>
+  </array>
+  <key>Extension Description</key>
+  <string>Dictionary lookup using Monokakido.</string>
+  <key>Extension Identifier</key>
+  <string>com.github.sihvase.popclip.extension.monokakido</string>
+  <key>Extension Name</key>
+  <string>物書堂</string>
+</dict>
+</plist>

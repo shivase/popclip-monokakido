@@ -1,0 +1,21 @@
+name: Create Archive
+on:
+  push:
+    tags:
+    - '*'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: Archive Release
+      uses: thedoctor0/zip-release@main
+      with:
+        type: 'zip'
+        filename: 'Monokakido.popclipextz'
+        exclusions: 'image.gif README.md'
+    - name: Upload Release
+      uses: ncipollo/release-action@v1
+      with:
+        artifacts: "Monokakido.popclipextz"
+        token: ${{ secrets.GITHUB_TOKEN }}

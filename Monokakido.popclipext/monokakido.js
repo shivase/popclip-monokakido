@@ -36,12 +36,12 @@ exports.options = (() => {
   const scopes = scopeList();
   const scopeOption = {
     identifier: 'destscope',
-    label: '用例',
+    label: '検索種別',
     type: 'multiple',
     valueLabels: scopes.names,
     values: scopes.scopes,
     defaultValue: '',
-    description: "検索の用例を指定して下さい"
+    description: "検索の種別を指定して下さい"
   };
 
   return [categoryOption, scopeOption];

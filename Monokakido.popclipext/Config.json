@@ -1,0 +1,14 @@
+{
+  "identifier": "com.github.sihvase.popclip.extension.monokakido",
+  "popclipVersion": 3895,
+  "name": "物書堂",
+  "icon": "circle 物",
+  "module": "monokakido.js",
+  "app": {
+    "name": "物書堂",
+    "link": "https://monokakido.jp",
+    "check installed": true,
+    "bundle identifiers": ["jp.monokakido.Dictionaries"]
+  },
+  "description": "Dictionary lookup using Monokakido"
+}

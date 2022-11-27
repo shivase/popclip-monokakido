@@ -1,0 +1,69 @@
+{
+    "note": "url scheme from https://www.monokakido.jp/ja/dictionaries/app/usage.html#usage_57",
+    "categories": [
+        {
+            "category": "",
+            "name": "すべて"
+        },
+        {
+            "category": "ja",
+            "name": "国語"
+        },
+        {
+            "category": "ja-accent",
+            "name": "アクセント"
+        },
+        {
+            "category": "ja-kogo",
+            "name": "古語"
+        },
+        {
+            "category": "ja-kanji",
+            "name": "漢和"
+        },
+        {
+            "category": "en",
+            "name": "英英"
+        },
+        {
+            "category": "en-ja",
+            "name": "英和"
+        },
+        {
+            "category": "cn-ja",
+            "name": "中国語"
+        },
+        {
+            "category": "kr-ja",
+            "name": "韓国語"
+        },
+        {
+            "category": "fr-ja",
+            "name": "フランス語"
+        },
+        {
+            "category": "de-ja",
+            "name": "ドイツ語"
+        },
+        {
+            "category": "it-ja",
+            "name": "イタリア語"
+        },
+        {
+            "category": "es-ja",
+            "name": "スペイン語"
+        },
+        {
+            "category": "pt-ja",
+            "name": "ポルトガル語"
+        },
+        {
+            "category": "ru-ja",
+            "name": "ロシア語"
+        },
+        {
+            "category": "th-ja",
+            "name": "タイ語"
+        }
+    ]
+}

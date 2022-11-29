@@ -7,7 +7,6 @@ const { categories, scopes, schemes } = require("./options.json");
 
 function translate(text, category, scope, scheme) {
   const url = encodeURI(`${scheme}:///?text=${text}&category=${category}&scope=${scope}`);
-  popclip.showText(url);
   popclip.openUrl(url, {app: 'jp.monokakido.Dictionaries'});
 }
 

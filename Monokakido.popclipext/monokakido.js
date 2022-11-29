@@ -3,11 +3,11 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.options = exports.actions = void 0;
 
 // Categories and Scopes list comes from https://www.monokakido.jp/ja/dictionaries/app/usage.html#usage_57
-const { categories } = require("./categories.json");
-const { scopes } = require("./scopes.json");
+const { categories, scopes, schemes } = require("./options.json");
 
-function translate(text, category, scope) {
-  const url = encodeURI(`mkdictionaries:///?text=${text}&category=${category}&scope=${scope}`);
+function translate(text, category, scope, scheme) {
+  const url = encodeURI(`${scheme}:///?text=${text}&category=${category}&scope=${scope}`);
+  popclip.showText(url);
   popclip.openUrl(url, {app: 'jp.monokakido.Dictionaries'});
 }
 
@@ -15,7 +15,7 @@ function translate(text, category, scope) {
 exports.actions = [{
   requirements: ['text'],
   code: (input, options) => {
-    translate(input.text, options.destcategory, options.destscope);
+    translate(input.text, options.destcategory, options.destscope, options.destscheme);
     return null;
   }
 }];
@@ -44,10 +44,21 @@ exports.options = (() => {
     description: "検索の種別を指定して下さい"
   };
 
-  return [categoryOption, scopeOption];
+  const schemes = schemeList();
+  const schemeOption = {
+    identifier: 'destscheme',
+    label: '検索辞書',
+    type: 'multiple',
+    valueLabels: schemes.names,
+    values: schemes.schemes,
+    defaultValue: 'mkdictionaries',
+    description: "検索対象の辞書を指定して下さい"
+  };
+
+  return [categoryOption, scopeOption, schemeOption];
 })();
 
-// build the category list from the json file
+// build the option list from the json file
 function categoryList() {
   const result = { categories: [], names: [] };
   for (const category of categories) {
@@ -62,6 +73,15 @@ function scopeList() {
   for (const scope of scopes) {
     result.names.push(scope.name);
     result.scopes.push(scope.scope);
+  }
+  return result;
+}
+
+function schemeList() {
+  const result = { schemes: [], names: [] };
+  for (const scheme of schemes) {
+    result.names.push(scheme.name);
+    result.schemes.push(scheme.scheme);
   }
   return result;
 }

@@ -1,0 +1,257 @@
+{
+    "note": "url scheme from https://www.monokakido.jp/ja/dictionaries/app/usage.html#usage_57",
+    "categories": [
+        {
+            "category": "",
+            "name": "すべて"
+        },
+        {
+            "category": "ja",
+            "name": "国語"
+        },
+        {
+            "category": "ja-accent",
+            "name": "アクセント"
+        },
+        {
+            "category": "ja-kogo",
+            "name": "古語"
+        },
+        {
+            "category": "ja-kanji",
+            "name": "漢和"
+        },
+        {
+            "category": "en",
+            "name": "英英"
+        },
+        {
+            "category": "en-ja",
+            "name": "英和"
+        },
+        {
+            "category": "cn-ja",
+            "name": "中国語"
+        },
+        {
+            "category": "kr-ja",
+            "name": "韓国語"
+        },
+        {
+            "category": "fr-ja",
+            "name": "フランス語"
+        },
+        {
+            "category": "de-ja",
+            "name": "ドイツ語"
+        },
+        {
+            "category": "it-ja",
+            "name": "イタリア語"
+        },
+        {
+            "category": "es-ja",
+            "name": "スペイン語"
+        },
+        {
+            "category": "pt-ja",
+            "name": "ポルトガル語"
+        },
+        {
+            "category": "ru-ja",
+            "name": "ロシア語"
+        },
+        {
+            "category": "th-ja",
+            "name": "タイ語"
+        }
+    ],
+    "scopes": [
+        {
+            "scope": "",
+            "name": "すべて"
+        },
+        {
+            "scope": "headword",
+            "name": "見出し"
+        },
+        {
+            "scope": "idiom",
+            "name": "成句"
+        },
+        {
+            "scope": "example",
+            "name": "用例"
+        },
+        {
+            "scope": "sense",
+            "name": "語義"
+        },
+        {
+            "scope": "kanji",
+            "name": "漢字"
+        },
+        {
+            "scope": "cj",
+            "name": "中日"
+        },
+        {
+            "scope": "jc",
+            "name": "日中"
+        }
+    ],
+    "schemes": [
+        {
+            "scheme": "mkdictionaries",
+            "name": "すべて"
+        },
+        {
+            "scheme": "mknds",
+            "name": "精選版 日本国語大辞典"
+        },
+        {
+            "scheme": "mkdaijirin",
+            "name": "大辞林"
+        },
+        {
+            "scheme": "mkruigo",
+            "name": "角川類語新辞典"
+        },
+        {
+            "scheme": "mksankoku7",
+            "name": "三省堂国語辞典 第七版"
+        },
+        {
+            "scheme": "mksmk7",
+            "name": "三省堂 新明解国語辞典 第七版"
+        },
+        {
+            "scheme": "mkkogo2",
+            "name": "旺文社 全訳古語辞典（第四版）"
+        },
+        {
+            "scheme": "mkkogo",
+            "name": "旺文社 全訳古語辞典（第三版）"
+        },
+        {
+            "scheme": "mkkanjikai",
+            "name": "全訳 漢辞海 第三版"
+        },
+        {
+            "scheme": "mkcrowncn",
+            "name": "超級クラウン中日・クラウン日中辞典"
+        },
+        {
+            "scheme": "mkkorean",
+            "name": "韓日・日韓辞典"
+        },
+        {
+            "scheme": "mkwisdom2",
+            "name": "ウィズダム英和・和英辞典 2"
+        },
+        {
+            "scheme": "mkwisdom",
+            "name": "ウィズダム英和・和英辞典"
+        },
+        {
+            "scheme": "mkced",
+            "name": "コリンズ英語辞典＋シソーラス"
+        },
+        {
+            "scheme": "mkccadb",
+            "name": "コウビルド英英辞典（第8版）"
+        },
+        {
+            "scheme": "mkccad",
+            "name": "コウビルド英英辞典（米語版）第2版"
+        },
+        {
+            "scheme": "mkccjad",
+            "name": "コウビルド英英和辞典（米語版）"
+        },
+        {
+            "scheme": "mkpetit4",
+            "name": "プチ・ロワイヤル仏和辞典（第４版）・和仏辞典（第３版）"
+        },
+        {
+            "scheme": "mkpetit",
+            "name": "プチ・ロワイヤル仏和辞典（第3版）・和仏辞典（第2版）"
+        },
+        {
+            "scheme": "mkpetitprf",
+            "name": "プチ・ロワイヤル仏和辞典（第３版）"
+        },
+        {
+            "scheme": "mkitaliano",
+            "name": "伊和・和伊中辞典"
+        },
+        {
+            "scheme": "mkespanoltodos",
+            "name": "西和中辞典・和西辞典"
+        },
+        {
+            "scheme": "mkespanol",
+            "name": "西和中辞典・ポケプロ和西辞典"
+        },
+        {
+            "scheme": "mkaccessall",
+            "name": "アクセス独和・和独辞典"
+        },
+        {
+            "scheme": "mkaccess",
+            "name": "アクセス独和辞典"
+        },
+        {
+            "scheme": "mkportugues",
+            "name": "現代ポルトガル語辞典"
+        },
+        {
+            "scheme": "mkrobert",
+            "name": "小学館 ロベール 仏和大辞典"
+        },
+        {
+            "scheme": "mkgrossesde2",
+            "name": "小学館 独和大辞典（第2版）"
+        },
+        {
+            "scheme": "mkrhej",
+            "name": "小学館 ランダムハウス英和大辞典（第2版）"
+        },
+        {
+            "scheme": "mkoldae",
+            "name": "オックスフォード アカデミック英英辞典"
+        },
+        {
+            "scheme": "mksoejt",
+            "name": "小学館 オックスフォード英語類語辞典"
+        },
+        {
+            "scheme": "mksoejcd",
+            "name": "小学館 オックスフォード 英語コロケーション辞典"
+        },
+        {
+            "scheme": "mkr4ex",
+            "name": "表現のための実践ロイヤル英文法"
+        },
+        {
+            "scheme": "mkace",
+            "name": "エースクラウン英和辞典 第2版"
+        },
+        {
+            "scheme": "mkprj",
+            "name": "プログレッシブ ロシア語辞典"
+        },
+        {
+            "scheme": "mkg5",
+            "name": "ジーニアス英和・和英辞典（第5版／第3版）"
+        },
+        {
+            "scheme": "mkolex",
+            "name": "オーレックス英和・和英辞典（第2版）"
+        },
+        {
+            "scheme": "mkcj3",
+            "name": "小学館 中日・日中辞典（第3版）"
+        }
+    ]
+}

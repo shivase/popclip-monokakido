@@ -1,7 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.options = exports.actions = void 0;
-
 // Categories and Scopes list comes from https://www.monokakido.jp/ja/dictionaries/app/usage.html#usage_57
 const { categories, scopes, schemes } = require("./options.json");
 
